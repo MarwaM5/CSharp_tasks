@@ -53,16 +53,23 @@ namespace SchoolSystem2
             
             if (newAvg >= 50)
             {
-                Console.WriteLine("Passed");
+                Console.WriteLine("Result: Passed");
 
+            }
+            else
+            {
+                Console.WriteLine("Result: Failed");
             }
 
             if (age >= 18)
             {
-                Console.WriteLine("Adult: "+true);
+                Console.WriteLine("Adult: "+ true);
             }
 
-
+            else
+            {
+                Console.WriteLine("Adult: " + false);
+            }
 
 
 

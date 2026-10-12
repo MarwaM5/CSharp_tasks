@@ -52,6 +52,10 @@ namespace GuessingGame
             {
                 points = 5;
             }
+            else   
+            {
+                points = 0;
+            }
 
             Console.WriteLine("Attempts: " + attempts);
             Console.WriteLine("Points: " + points);

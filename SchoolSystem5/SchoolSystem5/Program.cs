@@ -30,7 +30,7 @@ namespace SchoolSystem5
             SchoolReport report = new SchoolReport("End of Year Report");
             report.DisplayReportTitle();
 
-            // Person p = new Person("Test", 20, "Test School");
+            // Person p = new Person("jana", 20, "AL noor School");
             // Console.WriteLine(p.SchoolName);    //  protected , not accessible from Main()
             // Console.WriteLine(p._internalCode); // private  , not accessible outside Person
 

@@ -13,8 +13,8 @@ namespace Adventure_Game
             Console.WriteLine("===== ADVENTURE GAME =====");
             Console.WriteLine();
 
-            Warrior warrior = new Warrior("Alex", 80);
-            Wizard wizard = new Wizard("Luna", 70);
+            Warrior warrior = new Warrior("Alexx", 80);
+            Wizard wizard = new Wizard("Lunaa", 70);
 
             List<GameCharacter> characters = new List<GameCharacter>();
             characters.Add(warrior);
